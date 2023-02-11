@@ -101,7 +101,7 @@ MyButton *Calculator::createButton(const QString &text, const char *member)
 
 void Calculator::abortOperation()
 {
-    display->setText("...");;
+    display->setText("error");
 }
 
 
